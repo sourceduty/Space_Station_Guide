@@ -1,6 +1,8 @@
 ![Space Station Tracking with Laser Guidance for Raspberry Pi](https://github.com/sourceduty/Space_Station_Guide/assets/123030236/adf23f8f-ba2b-42a3-a3db-ff15910317eb)
 
-### International Space Station tracking with laser guidance for Raspberry Pi.
+> International Space Station tracking with laser guidance for Raspberry Pi.
+
+#
 
 Track the International Space Station (ISS) and guide local sightseeing using a custom-mounted laser.
 
