@@ -1,4 +1,4 @@
-![Space Station Tracking with Laser Guidance for Raspberry Pi](https://github.com/sourceduty/Space_Station_Guide/assets/123030236/adf23f8f-ba2b-42a3-a3db-ff15910317eb)
+![Laser Guidance for Raspberry Pi](https://github.com/sourceduty/Space_Station_Guide/assets/123030236/adf23f8f-ba2b-42a3-a3db-ff15910317eb)
 
 > Track and guide drones using a custom-mounted laser.
 
