@@ -1,34 +1,14 @@
 ![Space Station Tracking with Laser Guidance for Raspberry Pi](https://github.com/sourceduty/Space_Station_Guide/assets/123030236/adf23f8f-ba2b-42a3-a3db-ff15910317eb)
 
-> International Space Station tracking with laser guidance for Raspberry Pi.
+> Track and guide drones using a custom-mounted laser.
 
 #
 
-Track the International Space Station (ISS) and guide local sightseeing using a custom-mounted laser.
+This project aims to create a laser guidance system for assisting drones with precise takeoff and landing positioning. Using a Raspberry Pi (preferably Model 4) equipped with a GPS module and a small 3.5-inch TFT display, the system will track the drone’s position in real time within a specific area. A tactical laser flashlight will be custom-mounted and controlled by the Raspberry Pi to emit a laser beam pointing directly at the target location for the drone, helping it align for accurate landings and takeoffs.
 
-### Parts Needed:
+The system will use GPS coordinates both from the drone and the ground device to maintain precise tracking. As the drone approaches or departs from the designated landing or takeoff spot, the Raspberry Pi will utilize the GPS module to continually update the drone’s position relative to the target location. This information will be displayed on the small monitor, and the laser beam will be activated to highlight the precise landing or takeoff point, enhancing visibility and accuracy, especially in low-light or visually challenging environments.
 
-1. Raspberry Pi (Model 4 recommended)
-2. GPS module (e.g., Adafruit Ultimate GPS)
-3. Small display (e.g., 3.5-inch TFT LCD)
-4. Portable monitor (e.g., Lepow Portable Monitor)
-5. Strong tactical laser flashlight
-6. Mounting hardware for laser flashlight
-7. Power source (e.g., battery pack)
-8. Cables and connectors
-9. Protective case for Raspberry Pi (optional)
-
-### Functionality:
-
-1. Track the position of the ISS using online APIs.
-2. Display the ISS's current position on a small display.
-3. Utilize GPS to determine the user's location.
-4. Notify the user when the ISS is in viewing range based on their GPS coordinates.
-5. Power on and point a laser directly at the ISS for sightseeing guidance when it's in viewing range.
-
-#
-
-This Raspberry Pi ISS Tracking and Laser Sightseeing project aims to combine technology and astronomy enthusiasts' interests by providing a unique way to engage with space exploration. By utilizing a Raspberry Pi, GPS module, small display, and a custom-mounted strong tactical laser flashlight, users can track the International Space Station (ISS) in real-time and receive notifications when it's visible from their location. When the ISS is in viewing range, the system automatically powers on and points a laser directly at the ISS, offering a guided experience for local sightseeing. This project not only fosters an appreciation for space science but also demonstrates the practical applications of Raspberry Pi in creating innovative and interactive experiences for enthusiasts of all ages.
+To ensure portability, the system includes a compact battery pack to power all components, such as the Raspberry Pi, GPS module, display, and laser. Mounting hardware will securely fix the laser flashlight, allowing stable and accurate beam projection. Cables and connectors will link each component, while an optional protective case can shield the Raspberry Pi from external elements, making the system suitable for outdoor use. This setup will provide drone operators with a reliable tool for guiding drones to exact positions during critical phases of flight.
 
 #
 
